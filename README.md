@@ -4,9 +4,9 @@
 Để làm được đồ án này cần cài express,path,body-paser,jade (template engine),nodemailer
 Trong đồ án này ta sẽ làm 3 trang là : home,about,contact đơn giản.
 ##  Cách chạy ví dụ :
-    *  git clone https://github.com/hoanganh123456/web_simple_express_project.git
-    *  npm i 
-    *  npm 
+* git clone https://github.com/hoanganh123456/web_simple_express_project.git
+* npm i 
+* npm index
 ## Các bước thực hiện:
 * B1 : Cài đặt npm i 4 cái trên.
 * B2 : Ta sẽ require các modul đã cài đặt:
