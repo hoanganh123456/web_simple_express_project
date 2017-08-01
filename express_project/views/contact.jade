@@ -1,0 +1,14 @@
+extends layout
+block content
+
+    form(method='post', action='contact/send')
+        .form-group
+            label Name
+            input#exampleInputName2.form-control(type='text', placeholder='Hoang Anh',name='name')
+        .form-group
+            label Email address
+            input#exampleInputEmail1.form-control(type='email', placeholder='Email',name='email')
+        .form-group
+            label Message
+            textarea.form-control(type='text', placeholder='Message',name='message')
+         button.btn.btn-default(type='submit') Submit
